@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .foregroundColor(.brown)
     }
 }
 
@@ -24,3 +25,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
